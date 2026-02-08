@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sports-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: green;
+}
+.sports-elements{
+
+}
+.sports-element{
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%,-50%) scale(0);
+ 
+}
+
+.sports-element i,h2{
+    font-size: 10rem;
+    color: brown;
+}
+
+.sports-element.current{
+  transform: translate(-50%,-50%) scale(1);
+ 
+}
